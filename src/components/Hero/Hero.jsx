@@ -6,15 +6,15 @@ const HeroModerno = () => {
       <div className="container hero-moderno-container">
         
         {/* Foto com borda gradiente */}
-        <div className="hero-photo-wrapper">
-          <div className="hero-photo-border">
-            <img 
-              src="/eu.jpg"
-              alt="Sua Foto" 
-              className="hero-photo"
-            />
-          </div>
-        </div>
+<div className="hero-photo-wrapper">
+  <div className="hero-photo-border">
+    <img 
+      src={`${import.meta.env.BASE_URL}eu.jpg`}
+      alt="Jean Caio" 
+      className="hero-photo"
+    />
+  </div>
+</div>
 
         {/* Conteúdo textual */}
         <div className="hero-moderno-content">
