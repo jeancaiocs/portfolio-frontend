@@ -1,4 +1,5 @@
 import './Hero.css'
+import euImg from '../../assets/eu.jpg'
 
 const HeroModerno = () => {
   return (
@@ -9,7 +10,7 @@ const HeroModerno = () => {
 <div className="hero-photo-wrapper">
   <div className="hero-photo-border">
     <img 
-      src={`${import.meta.env.BASE_URL}eu.jpg`}
+      src={euImg}
       alt="Jean Caio" 
       className="hero-photo"
     />
